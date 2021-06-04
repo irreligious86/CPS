@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/tt-lake/TTLakes-Medium.eot');
+  src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+  url('../fonts/tt-lake/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/tt-lake/TTLakes-Medium.woff2') format('woff2'),
+  url('../fonts/tt-lake/TTLakes-Medium.woff') format('woff'),
+  url('../fonts/tt-lake/TTLakes-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes Compressed';
+  src: url('../fonts/tt-lake/TTLakesCompressed-Black.eot');
+  src: local('../fonts/tt-lake/TT Lakes Compressed Black'), local('TTLakesCompressed-Black'),
+  url('../fonts/tt-lake/TTLakesCompressed-Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/tt-lake/TTLakesCompressed-Black.woff2') format('woff2'),
+  url('../fonts/tt-lake/TTLakesCompressed-Black.woff') format('woff'),
+  url('../fonts/tt-lake/TTLakesCompressed-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes Condensed';
+  src: url('../fonts/tt-lake/TTLakesCondensed-Bold.eot');
+  src: local('TT Lakes Condensed Bold'), local('TTLakesCondensed-Bold'),
+  url('../fonts/tt-lake/TTLakesCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/tt-lake/TTLakesCondensed-Bold.woff2') format('woff2'),
+  url('../fonts/tt-lake/TTLakesCondensed-Bold.woff') format('woff'),
+  url('../fonts/tt-lake/TTLakesCondensed-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

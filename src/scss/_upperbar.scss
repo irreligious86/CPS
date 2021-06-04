@@ -1,0 +1,52 @@
+.upperbar {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 960px) {
+  .upperbar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 20px;
+
+    &__start-side {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+
+    &__end-side {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 533px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}

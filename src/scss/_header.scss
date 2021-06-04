@@ -1,0 +1,163 @@
+.container-header {
+  display: flex;
+  flex-direction: column;
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &--title {
+      margin: auto 0;
+      padding-left: 15px;
+      border-left: 5px solid rgba(0, 255, 255, 0.84);
+    }
+
+    &--menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-content: center;
+      align-items: center;
+      gap: 30px;
+      padding: 5px;
+      margin: 20px;
+    }
+
+    &--link {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-content: center;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      padding: 8px;
+
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      color: #1B1C21;
+
+      &:hover {
+        background-color: rgba(184, 255, 236, 0.3);
+        border-bottom: 2px solid rgba(126, 126, 130, 0.4);
+        box-shadow: 2px 2px 40px rgba(128, 128, 128, 0.41);
+      }
+    }
+  }
+
+  &__nav {
+    &--flex {
+
+    }
+
+    &--swiper {
+      display: none;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+  }
+
+  &__item {
+    width: fit-content;
+    //width: 150px;
+    //min-width: 200px;
+  }
+
+  &__link {
+    border: 2px solid transparent;
+    display: block;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+
+    &:hover {
+      background: #FFFFFF;
+      border: 2px solid #B8FFEC;
+      box-shadow: 8px 6px 40px 4px rgba(128, 128, 128, 0.3);
+      transition: all .01s linear .1s;
+    }
+  }
+}
+
+.swiper-container {
+  display: none;
+}
+
+.reviews {
+  display: inline-block;
+  width: fit-content;
+  padding: 3px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #7E7E82;
+
+  &:hover {
+    color: #1c1cf8;
+    text-decoration: #1c1cf8;
+    background-color: rgba(182, 182, 186, 0.52);
+  }
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 960px) {
+  .container-header {
+    &__top--link {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-header {
+
+    &__nav {
+
+      &--flex {
+        display: none;
+      }
+
+      &--swiper {
+        display: block;
+        margin: 10px;
+        width: 100%;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 533px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}

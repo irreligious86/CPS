@@ -1,0 +1,134 @@
+.sidebar {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  max-width: 276px;
+  height: 100vh;
+
+  &__header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__navigation {
+
+  }
+
+  &__list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__item {
+    margin-top: 20px;
+  }
+
+  .active {
+    margin-top: 20px;
+    border-left: 4px solid rgba(0, 255, 255, 0.84);
+
+    .sidebar__link {
+      color: #7E7E82;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    padding: 8px 20px;
+  }
+
+  &__footer {
+    margin-top: 150px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+
+    .icon {
+
+      &-group {
+        display: flex;
+        gap: 20px;
+      }
+
+      &-call {
+      }
+
+      &-chat {
+      }
+
+      &-profile {
+      }
+    }
+
+    .email-link {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      color: #1B1C21;
+    }
+
+    .phone-link {
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.6px;
+      color: #1B1C21;
+    }
+
+    .lang-list {
+      display: flex;
+      gap: 15px;
+
+      .lang-link {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        color: #1B1C21;
+
+        &--active {
+          color: #7E7E82;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 960px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 533px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
