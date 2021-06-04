@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-self: stretch;
+  align-content: center;
+  gap: 20px;
+  background: #F8F8F8;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 960px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 533px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}

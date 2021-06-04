@@ -1,0 +1,47 @@
+.container-footer {
+  border-top: $borderTop;
+  text-align: justify;
+  width: 100%;
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  gap: 15px;
+
+
+  &-section {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #7E7E82;
+    mix-blend-mode: normal;
+    opacity: 0.72;
+  }
+}
+
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 960px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  .container-footer {
+    flex-direction: column;
+    align-items: start;
+    align-content: start;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+}
