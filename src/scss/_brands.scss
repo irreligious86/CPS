@@ -1,6 +1,10 @@
 .brands {
   border-top: $borderTop;
 
+  &__inner--swiper {
+    display: none;
+  }
+
   &__list {
     display: flex;
     flex-direction: row;
@@ -46,8 +50,6 @@
   .brand__go-button {
     border: none;
     background-color: transparent;
-
-    &--inner {}
   }
 }
 
@@ -82,8 +84,17 @@
 
 @media screen and (max-width: 768px) {
   .brands {
-    &__list {
-      justify-content: space-around;
+
+    &__inner {
+      &--flex {
+        display: none;
+      }
+
+      &--swiper {
+        display: block;
+
+
+      }
     }
   }
 }
