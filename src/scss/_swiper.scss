@@ -17,3 +17,9 @@
 .swiper-scrollbar {
 
 }
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: -5px;
+}
+
+

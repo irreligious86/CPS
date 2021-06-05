@@ -49,16 +49,6 @@
     }
   }
 
-  &__nav {
-    &--flex {
-
-    }
-
-    &--swiper {
-      display: none;
-    }
-  }
-
   &__list {
     display: flex;
     flex-direction: row;
@@ -75,8 +65,6 @@
 
   &__item {
     width: fit-content;
-    //width: 150px;
-    //min-width: 200px;
   }
 
   &__link {
@@ -97,10 +85,6 @@
       transition: all .01s linear .1s;
     }
   }
-}
-
-.swiper-container {
-  display: none;
 }
 
 .reviews {
@@ -136,20 +120,11 @@
 }
 
 @media screen and (max-width: 768px) {
+
   .container-header {
 
-    &__nav {
-
-      &--flex {
-        display: none;
-      }
-
-      &--swiper {
-        display: block;
-        margin: 10px;
-        width: 100%;
-        white-space: nowrap;
-      }
+    &__nav--flex {
+      display: none;
     }
   }
 }

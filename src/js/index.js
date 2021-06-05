@@ -55,6 +55,15 @@ const swiper = new Swiper('.swiper-container', {
     delay: 2000,
     stopOnLastSlide: false,
     disableOnInteraction: true
-  }
+  },
+
+  speed: 1200,
+
+  // effect: 'fade',
+  //
+  // fadeEffect: {
+  //   crossFade: true
+  // }
 
 });
+
